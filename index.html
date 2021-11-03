@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta charset="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Formulário de login</title>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="login-form col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-4 col-md-offset-4">
+		<header>			
+			<h2  class="text-center">Digite suas <b>credenciais</b> para <b>entrar</b></h2>
+		</header>
+		<form>
+			<div class="form-group">
+				<div class="input-group">
+					<div class="input-group-addon">
+						<span class="glyphicon glyphicon-user"></span>
+					</div>
+					<input type="text" name="usuario" class="form-control" placeholder="usuario">
+				</div>
+			</div>
+			<div class="form-group">
+				<div class="input-group">
+					<div class="input-group-addon">
+						<span class="glyphicon glyphicon-option-horizontal"></span>
+					</div>
+					<input type="password" name="senha" class="form-control" placeholder="Senha">
+				</div>
+			</div>
+
+			<footer>
+				<div class="checkbox pull-left">
+					<label><input type="checkbox" name="lembrar">Lembrar de mim</label>
+				</div>
+				<button type="submit" class="btn btn-primary pull-right">Entrar</button>
+			</footer>
+		</form>
+	</div>
+
+</body>
+</html>
